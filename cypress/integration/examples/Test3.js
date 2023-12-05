@@ -50,6 +50,7 @@ it("Tenant Admin Functionalities", function(){
     cy.get("div a[xpath='1']").click();
     cy.get(".import_link").click();
     cy.get("input[type='file']").attachFile("AdministrativeLevel.csv");
+    
     //cy.get(".guess_format").eq(1).select("csv");
     cy.get(".default").click();
     cy.get(".default").click();
