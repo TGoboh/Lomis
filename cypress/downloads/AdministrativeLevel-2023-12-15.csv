@@ -1,0 +1,6 @@
+name,details,parent,primary_color,secondary_color,is_active
+Country,test level,,,,1
+State,state testing,Country,,,1
+LGA,Testing,State,,,1
+Town,testing,LGA,,,1
+Community,Test Automation,Town,,,0
